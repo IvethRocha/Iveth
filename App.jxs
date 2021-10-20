@@ -1,0 +1,28 @@
+import "./styles/style.scss"
+import Curso from "./styles/Curso";
+import Formulario from "./Formulario";
+import Banner from "./Banner";
+import Pie from "./styles/Pie";
+import Entrada from "./styles/Entrada";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+const App = () => (
+
+    <Router>
+        <Banner />
+        <Switch>
+            <Route path="/curso" exact component={Curso} />
+            <Route path="/formulario" exact component={Formulario} />
+            <Route path="/entrada" exact component={Entrada} />
+            <Route component={() => (
+                <div className="ed-grid">
+                    <h1>Web Page not found</h1>
+                </div>
+            )} />
+        </Switch>
+        <Pie />
+    </Router>
+)
+
+export default App;
+
