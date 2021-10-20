@@ -1,0 +1,79 @@
+body {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Banner{
+  align-items: left !important;
+  width: 100px !important;
+  height: 100px !important;
+}
+.logo{
+  width: 100px !important;
+  height: 100px !important;
+  align-items: left !important;
+  background: cover !important;
+  
+  }
+  main-banner {
+    color: orange;
+  }
+  .main-banner {
+    background-color: black !important;
+  }
+
+  .imagen-1{
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  .card{
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .card-1{
+    width: 400px !important;
+    height: 400px !important;
+    position: center !important;
+  }
+
+#menu{
+    background: black !important;
+    padding: 3px;
+    position: center !important;
+}
+  #menu li{
+    display: inline;
+    list-style: none;
+    padding: 40px;
+  }
+
+  #pie li{
+    display: inline;
+    padding: 15px;
+    font: bold 20px arial ;
+    color: #EBEDF2;
+  }
+
+  h1{
+    display: inline;
+  }
